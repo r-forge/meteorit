@@ -1,4 +1,4 @@
-#export(geoTransfer, geoWeights, readMFfiles)
+export(geoTransfer, geoWeights, readMFfiles)
 
 importFrom("data.table", "as.data.table", "is.data.table", "fread")
 importFrom("doParallel", "registerDoParallel")
