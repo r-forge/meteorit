@@ -1,9 +1,9 @@
-Package: meteoRIT
+#Package: meteoRIT
 Version: 1.0.0
 Date: 2019-01-21
 Title: Research Integrated Tools to Process Weather Data Provided by Meteo France Through the 'Convention Recherche' Agreement
-Authors@R: c(person("Yann", "Desjeux", , "yann.desjeux@inra.fr", role = c("aut","cre")))
-Maintainer: Yann Desjeux <yann.desjeux@inra.fr>
+Authors@R: c(person("Yann", "Desjeux", , "yann.desjeux@inrae.fr", role = c("aut","cre")))
+Maintainer: Yann Desjeux <yann.desjeux@inrae.fr>
 Description:
   Ce package se veut être une boîte à outils évolutive permettant à l'utilisateur de transformer 
   les fichiers de données transmis initialement par Météo France via la 'Convention Recherche', 
