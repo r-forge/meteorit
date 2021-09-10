@@ -1,4 +1,4 @@
-Package: meteoRIT
+#Package: meteoRIT
 Version: 1.0.0
 Date: 2019-01-21
 Title: Research Integrated Tools to Process Weather Data Provided by Meteo France Through the 'Convention Recherche' Agreement
@@ -9,7 +9,7 @@ Description:
   les fichiers de données transmis initialement par Météo France via la 'Convention Recherche', 
   en fichiers directement intégrables dans les analyses et les activités de la recherche.
 Depends: R (>= 3.4.4)
-Imports: data.table #, doParallel, dplyr, foreach, magrittr, raster, rgdal, rgeos, sp, svMisc
+Imports: data.table, doParallel, dplyr, foreach, magrittr, raster, rgdal, rgeos, sp, svMisc
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
