@@ -1,0 +1,13 @@
+year <- sub("-.*", "", meta$Date)
+vers <- sprintf("R package version %s", meta$Version)
+
+bibentry(bibtype = "Manual",
+   title = "meteoRIT: Research Integrated Tools to process weather data provided by M\u00e9t\u00e9o France",
+   author = personList(as.person("Yann Desjeux")),
+   year = year,
+   note = vers,
+   textVersion = paste0("Desjeux Y. (", year, "). ",
+            "meteoRIT: Research Integrated Tools to process weather data provided by M\u00e9t\u00e9o France. ",
+            vers),
+    mheader = "To cite the 'meteoRIT' package in publications please use:",
+)
